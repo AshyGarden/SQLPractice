@@ -42,10 +42,6 @@ WHERE loca = 1800;
 
 DROP TABLE dept2;
 
-
-
-
-
 ALTER TABLE dept2 DROP CONSTRAINT dept_no_pk;
 SELECT * FROM user_constraints;
 
